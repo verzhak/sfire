@@ -1,0 +1,23 @@
+
+;
+; Mapping of burnt forest areas
+;
+; Only for GNU/Linux
+; Compile before using: make
+; Dependencies: GDAL / OGR
+;
+
+[general]
+
+name = SFire
+author = Akinin M.V.
+qgisMinimumVersion = 1.8
+description = Mapping of burnt forest areas
+version = version 1.0
+tags = fire,sfire
+experimental = True
+deprecated = False
+homepage =
+tracker =
+repository =
+

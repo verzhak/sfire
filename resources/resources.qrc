@@ -1,0 +1,20 @@
+
+<RCC>
+
+	<qresource prefix="/plugins/sfire/" >
+	
+		<file>icons/main.png</file>
+		<file>icons/sfire.png</file>
+		<file>icons/about.png</file>
+		
+	</qresource>
+
+	<qresource prefix="/plugins/sfire/i10n" >
+	
+		<file>translation/i10n_en.qm</file>
+		<file>translation/i10n_ru.qm</file>
+		
+	</qresource>
+	
+</RCC>
+

@@ -1,0 +1,1344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SFireDialog</class>
+ <widget class="QDialog" name="SFireDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>814</width>
+    <height>602</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>814</width>
+    <height>602</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>814</width>
+    <height>602</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Составление карт гарей лесных массивов</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>:/plugins/sfire/icon.png</normaloff>:/plugins/sfire/icon.png</iconset>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="0" column="0">
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QTabWidget" name="tabWidget">
+       <property name="currentIndex">
+        <number>0</number>
+       </property>
+       <widget class="QWidget" name="tab">
+        <attribute name="title">
+         <string>Создание обучающего множества векторов</string>
+        </attribute>
+        <layout class="QGridLayout" name="gridLayout_6">
+         <item row="0" column="0">
+          <layout class="QVBoxLayout" name="verticalLayout_10">
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_11">
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_9">
+               <item>
+                <widget class="QGroupBox" name="groupBox_2">
+                 <property name="title">
+                  <string>Спутниковые снимки (формат - каталоги с GeoTIFF от LandSat 5)</string>
+                 </property>
+                 <layout class="QGridLayout" name="gridLayout_4">
+                  <item row="0" column="0">
+                   <layout class="QHBoxLayout" name="horizontalLayout_4">
+                    <item>
+                     <layout class="QVBoxLayout" name="verticalLayout_2">
+                      <item>
+                       <widget class="QLabel" name="label">
+                        <property name="text">
+                         <string>Старший</string>
+                        </property>
+                        <property name="alignment">
+                         <set>Qt::AlignCenter</set>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QLabel" name="label_2">
+                        <property name="text">
+                         <string>Младший</string>
+                        </property>
+                        <property name="alignment">
+                         <set>Qt::AlignCenter</set>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QVBoxLayout" name="verticalLayout_3">
+                      <item>
+                       <layout class="QHBoxLayout" name="horizontalLayout">
+                        <item>
+                         <widget class="QLineEdit" name="high_1">
+                          <property name="focusPolicy">
+                           <enum>Qt::NoFocus</enum>
+                          </property>
+                          <property name="inputMask">
+                           <string/>
+                          </property>
+                          <property name="readOnly">
+                           <bool>true</bool>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QPushButton" name="high_1_load">
+                          <property name="text">
+                           <string>Загрузить</string>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </item>
+                      <item>
+                       <layout class="QHBoxLayout" name="horizontalLayout_2">
+                        <item>
+                         <widget class="QLineEdit" name="low_1">
+                          <property name="focusPolicy">
+                           <enum>Qt::NoFocus</enum>
+                          </property>
+                          <property name="readOnly">
+                           <bool>true</bool>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QPushButton" name="low_1_load">
+                          <property name="text">
+                           <string>Загрузить</string>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </item>
+                     </layout>
+                    </item>
+                   </layout>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+               <item>
+                <widget class="QGroupBox" name="groupBox_3">
+                 <property name="title">
+                  <string>Полигональные векторные слои (формат - ESRI Shapefile)</string>
+                 </property>
+                 <layout class="QGridLayout" name="gridLayout_5">
+                  <item row="0" column="0">
+                   <layout class="QHBoxLayout" name="horizontalLayout_8">
+                    <item>
+                     <layout class="QVBoxLayout" name="verticalLayout_5">
+                      <item>
+                       <widget class="QLabel" name="label_3">
+                        <property name="text">
+                         <string>Область интереса</string>
+                        </property>
+                        <property name="alignment">
+                         <set>Qt::AlignCenter</set>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QLabel" name="label_4">
+                        <property name="text">
+                         <string>Лес</string>
+                        </property>
+                        <property name="alignment">
+                         <set>Qt::AlignCenter</set>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QVBoxLayout" name="verticalLayout_7">
+                      <item>
+                       <layout class="QHBoxLayout" name="horizontalLayout_9">
+                        <item>
+                         <widget class="QLineEdit" name="aoi_1">
+                          <property name="focusPolicy">
+                           <enum>Qt::NoFocus</enum>
+                          </property>
+                          <property name="readOnly">
+                           <bool>true</bool>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QPushButton" name="aoi_1_load">
+                          <property name="text">
+                           <string>Загрузить</string>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </item>
+                      <item>
+                       <layout class="QHBoxLayout" name="horizontalLayout_10">
+                        <item>
+                         <widget class="QLineEdit" name="forest_1">
+                          <property name="focusPolicy">
+                           <enum>Qt::NoFocus</enum>
+                          </property>
+                          <property name="readOnly">
+                           <bool>true</bool>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QPushButton" name="forest_1_load">
+                          <property name="text">
+                           <string>Загрузить</string>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </item>
+                     </layout>
+                    </item>
+                   </layout>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_8">
+               <item>
+                <spacer name="verticalSpacer">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>20</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item>
+                <widget class="QGroupBox" name="groupBox_4">
+                 <property name="title">
+                  <string>Обучающее множество векторов</string>
+                 </property>
+                 <layout class="QGridLayout" name="gridLayout_3">
+                  <item row="0" column="0">
+                   <layout class="QHBoxLayout" name="horizontalLayout_7">
+                    <item>
+                     <layout class="QVBoxLayout" name="verticalLayout_6">
+                      <item>
+                       <widget class="QLabel" name="label_5">
+                        <property name="text">
+                         <string>Класс &quot;Лес&quot;</string>
+                        </property>
+                        <property name="alignment">
+                         <set>Qt::AlignCenter</set>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QLabel" name="label_6">
+                        <property name="text">
+                         <string>Класс &quot;Гарь&quot;</string>
+                        </property>
+                        <property name="alignment">
+                         <set>Qt::AlignCenter</set>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QLabel" name="label_7">
+                        <property name="text">
+                         <string>Класс &quot;Не лес, не гарь&quot;</string>
+                        </property>
+                        <property name="alignment">
+                         <set>Qt::AlignCenter</set>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QVBoxLayout" name="verticalLayout_4">
+                      <item>
+                       <layout class="QHBoxLayout" name="horizontalLayout_3">
+                        <item>
+                         <widget class="QLineEdit" name="c3_1">
+                          <property name="focusPolicy">
+                           <enum>Qt::NoFocus</enum>
+                          </property>
+                          <property name="readOnly">
+                           <bool>true</bool>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QPushButton" name="c3_1_save">
+                          <property name="text">
+                           <string>Сохранить</string>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </item>
+                      <item>
+                       <layout class="QHBoxLayout" name="horizontalLayout_5">
+                        <item>
+                         <widget class="QLineEdit" name="c2_1">
+                          <property name="focusPolicy">
+                           <enum>Qt::NoFocus</enum>
+                          </property>
+                          <property name="readOnly">
+                           <bool>true</bool>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QPushButton" name="c2_1_save">
+                          <property name="text">
+                           <string>Сохранить</string>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </item>
+                      <item>
+                       <layout class="QHBoxLayout" name="horizontalLayout_6">
+                        <item>
+                         <widget class="QLineEdit" name="c1_1">
+                          <property name="focusPolicy">
+                           <enum>Qt::NoFocus</enum>
+                          </property>
+                          <property name="readOnly">
+                           <bool>true</bool>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QPushButton" name="c1_1_save">
+                          <property name="text">
+                           <string>Сохранить</string>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </item>
+                     </layout>
+                    </item>
+                   </layout>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+               <item>
+                <spacer name="verticalSpacer_2">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>20</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <widget class="QPushButton" name="op_1">
+             <property name="enabled">
+              <bool>false</bool>
+             </property>
+             <property name="text">
+              <string>Выполнить</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="tab_3">
+        <attribute name="title">
+         <string>Обучение классификатора</string>
+        </attribute>
+        <layout class="QGridLayout" name="gridLayout_17">
+         <item row="0" column="0">
+          <layout class="QVBoxLayout" name="verticalLayout_30">
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_25">
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_29">
+               <item>
+                <widget class="QGroupBox" name="groupBox_5">
+                 <property name="title">
+                  <string>Обучающее множество векторов</string>
+                 </property>
+                 <layout class="QGridLayout" name="gridLayout_7">
+                  <item row="0" column="0">
+                   <layout class="QHBoxLayout" name="horizontalLayout_12">
+                    <item>
+                     <layout class="QVBoxLayout" name="verticalLayout_11">
+                      <item>
+                       <widget class="QLabel" name="label_8">
+                        <property name="text">
+                         <string>Класс &quot;Лес&quot; (3)</string>
+                        </property>
+                        <property name="alignment">
+                         <set>Qt::AlignCenter</set>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QLabel" name="label_9">
+                        <property name="text">
+                         <string>Класс &quot;Гарь&quot; (2)</string>
+                        </property>
+                        <property name="alignment">
+                         <set>Qt::AlignCenter</set>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QLabel" name="label_10">
+                        <property name="text">
+                         <string>Класс &quot;Не лес, не гарь&quot; (1)</string>
+                        </property>
+                        <property name="alignment">
+                         <set>Qt::AlignCenter</set>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QVBoxLayout" name="verticalLayout_12">
+                      <item>
+                       <layout class="QHBoxLayout" name="horizontalLayout_13">
+                        <item>
+                         <widget class="QLineEdit" name="c3_2">
+                          <property name="focusPolicy">
+                           <enum>Qt::NoFocus</enum>
+                          </property>
+                          <property name="readOnly">
+                           <bool>true</bool>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QPushButton" name="c3_2_load">
+                          <property name="text">
+                           <string>Загрузить</string>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </item>
+                      <item>
+                       <layout class="QHBoxLayout" name="horizontalLayout_14">
+                        <item>
+                         <widget class="QLineEdit" name="c2_2">
+                          <property name="focusPolicy">
+                           <enum>Qt::NoFocus</enum>
+                          </property>
+                          <property name="readOnly">
+                           <bool>true</bool>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QPushButton" name="c2_2_load">
+                          <property name="text">
+                           <string>Загрузить</string>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </item>
+                      <item>
+                       <layout class="QHBoxLayout" name="horizontalLayout_15">
+                        <item>
+                         <widget class="QLineEdit" name="c1_2">
+                          <property name="focusPolicy">
+                           <enum>Qt::NoFocus</enum>
+                          </property>
+                          <property name="readOnly">
+                           <bool>true</bool>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QPushButton" name="c1_2_load">
+                          <property name="text">
+                           <string>Загрузить</string>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </item>
+                     </layout>
+                    </item>
+                   </layout>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_19">
+               <item>
+                <widget class="QGroupBox" name="groupBox_6">
+                 <property name="title">
+                  <string>Машина опорных векторов, разделяющая класс 3 и классы 1 и 2</string>
+                 </property>
+                 <layout class="QGridLayout" name="gridLayout_9">
+                  <item row="0" column="0">
+                   <layout class="QHBoxLayout" name="horizontalLayout_18">
+                    <item>
+                     <widget class="QLineEdit" name="svm_123_2">
+                      <property name="focusPolicy">
+                       <enum>Qt::NoFocus</enum>
+                      </property>
+                      <property name="readOnly">
+                       <bool>true</bool>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QPushButton" name="svm_123_2_save">
+                      <property name="text">
+                       <string>Сохранить</string>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+               <item>
+                <widget class="QGroupBox" name="groupBox_8">
+                 <property name="title">
+                  <string>Машина опорных векторов, разделяющая классы 1 и 2</string>
+                 </property>
+                 <layout class="QGridLayout" name="gridLayout_8">
+                  <item row="0" column="0">
+                   <layout class="QHBoxLayout" name="horizontalLayout_16">
+                    <item>
+                     <widget class="QLineEdit" name="svm_12_2">
+                      <property name="focusPolicy">
+                       <enum>Qt::NoFocus</enum>
+                      </property>
+                      <property name="readOnly">
+                       <bool>true</bool>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QPushButton" name="svm_12_2_save">
+                      <property name="text">
+                       <string>Сохранить</string>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <widget class="QPushButton" name="op_2">
+             <property name="enabled">
+              <bool>false</bool>
+             </property>
+             <property name="text">
+              <string>Выполнить</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="tab_2">
+        <attribute name="title">
+         <string>Формирование карты гарей лесного массива</string>
+        </attribute>
+        <layout class="QGridLayout" name="gridLayout_12">
+         <item row="0" column="0">
+          <layout class="QHBoxLayout" name="horizontalLayout_20">
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout_35">
+             <item>
+              <widget class="QGroupBox" name="groupBox_15">
+               <property name="title">
+                <string>Спутниковый снимок (формат - каталог с GeoTIFF от LandSat 5)</string>
+               </property>
+               <layout class="QGridLayout" name="gridLayout_18">
+                <item row="0" column="0">
+                 <layout class="QHBoxLayout" name="horizontalLayout_30">
+                  <item>
+                   <widget class="QLineEdit" name="prepare_3">
+                    <property name="focusPolicy">
+                     <enum>Qt::NoFocus</enum>
+                    </property>
+                    <property name="readOnly">
+                     <bool>true</bool>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QPushButton" name="prepare_3_load">
+                    <property name="text">
+                     <string>Загрузить</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <widget class="QGroupBox" name="groupBox_16">
+               <property name="title">
+                <string>Полигональные векторные слои (формат - ESRI Shapefile)</string>
+               </property>
+               <layout class="QGridLayout" name="gridLayout_20">
+                <item row="0" column="0">
+                 <layout class="QHBoxLayout" name="horizontalLayout_38">
+                  <item>
+                   <layout class="QVBoxLayout" name="verticalLayout_39">
+                    <item>
+                     <widget class="QLabel" name="label_33">
+                      <property name="text">
+                       <string>Область интереса</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="label_34">
+                      <property name="text">
+                       <string>Лес</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </item>
+                  <item>
+                   <layout class="QVBoxLayout" name="verticalLayout_40">
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_39">
+                      <item>
+                       <widget class="QLineEdit" name="aoi_3">
+                        <property name="focusPolicy">
+                         <enum>Qt::NoFocus</enum>
+                        </property>
+                        <property name="readOnly">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QPushButton" name="aoi_3_load">
+                        <property name="text">
+                         <string>Загрузить</string>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_40">
+                      <item>
+                       <widget class="QLineEdit" name="forest_3">
+                        <property name="focusPolicy">
+                         <enum>Qt::NoFocus</enum>
+                        </property>
+                        <property name="readOnly">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QPushButton" name="forest_3_load">
+                        <property name="text">
+                         <string>Загрузить</string>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                   </layout>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <widget class="QGroupBox" name="groupBox_18">
+               <property name="title">
+                <string>Машины опорных векторов, входящие в состав классификатора</string>
+               </property>
+               <layout class="QGridLayout" name="gridLayout_22">
+                <item row="0" column="0">
+                 <layout class="QHBoxLayout" name="horizontalLayout_44">
+                  <item>
+                   <layout class="QVBoxLayout" name="verticalLayout_43">
+                    <item>
+                     <widget class="QLabel" name="label_37">
+                      <property name="text">
+                       <string>3 от 1 и 2</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="label_38">
+                      <property name="text">
+                       <string>1 от 2</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </item>
+                  <item>
+                   <layout class="QVBoxLayout" name="verticalLayout_44">
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_45">
+                      <item>
+                       <widget class="QLineEdit" name="svm_123_3">
+                        <property name="focusPolicy">
+                         <enum>Qt::NoFocus</enum>
+                        </property>
+                        <property name="readOnly">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QPushButton" name="svm_123_3_load">
+                        <property name="text">
+                         <string>Загрузить</string>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_46">
+                      <item>
+                       <widget class="QLineEdit" name="svm_12_3">
+                        <property name="focusPolicy">
+                         <enum>Qt::NoFocus</enum>
+                        </property>
+                        <property name="readOnly">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QPushButton" name="svm_12_3_load">
+                        <property name="text">
+                         <string>Загрузить</string>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                   </layout>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout_20">
+             <item>
+              <spacer name="verticalSpacer_5">
+               <property name="orientation">
+                <enum>Qt::Vertical</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>20</width>
+                 <height>40</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item>
+              <widget class="QGroupBox" name="groupBox_17">
+               <property name="title">
+                <string>Результирующий файл (формат - GeoTIFF)</string>
+               </property>
+               <layout class="QGridLayout" name="gridLayout_21">
+                <item row="0" column="0">
+                 <layout class="QVBoxLayout" name="verticalLayout_31">
+                  <item>
+                   <layout class="QHBoxLayout" name="horizontalLayout_42">
+                    <item>
+                     <widget class="QLineEdit" name="dst_3">
+                      <property name="focusPolicy">
+                       <enum>Qt::NoFocus</enum>
+                      </property>
+                      <property name="readOnly">
+                       <bool>true</bool>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QPushButton" name="dst_3_save">
+                      <property name="text">
+                       <string>Сохранить</string>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="label_41">
+                    <property name="text">
+                     <string>Возможные значения элементов маски:</string>
+                    </property>
+                    <property name="alignment">
+                     <set>Qt::AlignCenter</set>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="label_39">
+                    <property name="text">
+                     <string>0 - пиксель не попал в область интереса;</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="label_40">
+                    <property name="text">
+                     <string>1 - пиксель покрывает территорию, не занятую ни лесом ни гарью;</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="label_35">
+                    <property name="text">
+                     <string>2 - пиксель покрывает территорию, занятую гарью;</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="label_36">
+                    <property name="text">
+                     <string>3 - пиксель покрывает территорию, занятую лесом.</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <widget class="QCheckBox" name="is_load_3">
+               <property name="text">
+                <string>Загрузить маску в ГИС</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <spacer name="verticalSpacer_6">
+               <property name="orientation">
+                <enum>Qt::Vertical</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>20</width>
+                 <height>40</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </item>
+         <item row="1" column="0">
+          <widget class="QPushButton" name="op_3">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="text">
+            <string>Выполнить</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </item>
+     <item>
+      <widget class="QGroupBox" name="groupBox">
+       <property name="title">
+        <string>Консоль</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <layout class="QGridLayout" name="gridLayout">
+        <item row="0" column="0">
+         <widget class="QListWidget" name="console">
+          <property name="autoScrollMargin">
+           <number>10</number>
+          </property>
+          <property name="editTriggers">
+           <set>QAbstractItemView::NoEditTriggers</set>
+          </property>
+          <property name="selectionMode">
+           <enum>QAbstractItemView::NoSelection</enum>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>tabWidget</tabstop>
+  <tabstop>high_1_load</tabstop>
+  <tabstop>low_1_load</tabstop>
+  <tabstop>aoi_1_load</tabstop>
+  <tabstop>forest_1_load</tabstop>
+  <tabstop>c3_1_save</tabstop>
+  <tabstop>c2_1_save</tabstop>
+  <tabstop>c1_1_save</tabstop>
+  <tabstop>op_1</tabstop>
+  <tabstop>c3_2_load</tabstop>
+  <tabstop>c2_2_load</tabstop>
+  <tabstop>c1_2_load</tabstop>
+  <tabstop>svm_123_2_save</tabstop>
+  <tabstop>svm_12_2_save</tabstop>
+  <tabstop>op_2</tabstop>
+  <tabstop>prepare_3_load</tabstop>
+  <tabstop>aoi_3_load</tabstop>
+  <tabstop>forest_3_load</tabstop>
+  <tabstop>svm_123_3_load</tabstop>
+  <tabstop>svm_12_3_load</tabstop>
+  <tabstop>dst_3_save</tabstop>
+  <tabstop>is_load_3</tabstop>
+  <tabstop>op_3</tabstop>
+  <tabstop>console</tabstop>
+ </tabstops>
+ <resources>
+  <include location="../resources.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>high_1_load</sender>
+   <signal>clicked()</signal>
+   <receiver>SFireDialog</receiver>
+   <slot>high_1_load()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>361</x>
+     <y>92</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>3</x>
+     <y>155</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>low_1_load</sender>
+   <signal>clicked()</signal>
+   <receiver>SFireDialog</receiver>
+   <slot>low_1_load()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>388</x>
+     <y>145</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>4</x>
+     <y>216</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>aoi_1_load</sender>
+   <signal>clicked()</signal>
+   <receiver>SFireDialog</receiver>
+   <slot>aoi_1_load()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>388</x>
+     <y>235</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>4</x>
+     <y>280</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>forest_1_load</sender>
+   <signal>clicked()</signal>
+   <receiver>SFireDialog</receiver>
+   <slot>forest_1_load()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>388</x>
+     <y>283</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>2</x>
+     <y>348</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>c3_1_save</sender>
+   <signal>clicked()</signal>
+   <receiver>SFireDialog</receiver>
+   <slot>c3_1_save()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>775</x>
+     <y>159</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>4</x>
+     <y>412</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>c2_1_save</sender>
+   <signal>clicked()</signal>
+   <receiver>SFireDialog</receiver>
+   <slot>c2_1_save()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>775</x>
+     <y>190</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>5</x>
+     <y>449</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>c1_1_save</sender>
+   <signal>clicked()</signal>
+   <receiver>SFireDialog</receiver>
+   <slot>c1_1_save()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>775</x>
+     <y>221</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>4</x>
+     <y>506</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>op_1</sender>
+   <signal>clicked()</signal>
+   <receiver>SFireDialog</receiver>
+   <slot>op_1()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>56</x>
+     <y>340</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-1</x>
+     <y>384</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>c3_2_load</sender>
+   <signal>clicked()</signal>
+   <receiver>SFireDialog</receiver>
+   <slot>c3_2_load()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>388</x>
+     <y>111</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-1</x>
+     <y>76</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>c2_2_load</sender>
+   <signal>clicked()</signal>
+   <receiver>SFireDialog</receiver>
+   <slot>c2_2_load()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>388</x>
+     <y>190</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-8</x>
+     <y>191</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>c1_2_load</sender>
+   <signal>clicked()</signal>
+   <receiver>SFireDialog</receiver>
+   <slot>c1_2_load()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>388</x>
+     <y>268</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-4</x>
+     <y>260</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>svm_123_2_save</sender>
+   <signal>clicked()</signal>
+   <receiver>SFireDialog</receiver>
+   <slot>svm_123_2_save()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>777</x>
+     <y>121</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>3</x>
+     <y>320</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>svm_12_2_save</sender>
+   <signal>clicked()</signal>
+   <receiver>SFireDialog</receiver>
+   <slot>svm_12_2_save()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>777</x>
+     <y>259</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-1</x>
+     <y>111</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>op_2</sender>
+   <signal>clicked()</signal>
+   <receiver>SFireDialog</receiver>
+   <slot>op_2()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>255</x>
+     <y>340</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>3</x>
+     <y>375</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>prepare_3_load</sender>
+   <signal>clicked()</signal>
+   <receiver>SFireDialog</receiver>
+   <slot>prepare_3_load()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>378</x>
+     <y>86</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>5</x>
+     <y>201</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>aoi_3_load</sender>
+   <signal>clicked()</signal>
+   <receiver>SFireDialog</receiver>
+   <slot>aoi_3_load()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>376</x>
+     <y>158</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>0</x>
+     <y>138</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>forest_3_load</sender>
+   <signal>clicked()</signal>
+   <receiver>SFireDialog</receiver>
+   <slot>forest_3_load()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>376</x>
+     <y>189</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>6</x>
+     <y>276</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>svm_123_3_load</sender>
+   <signal>clicked()</signal>
+   <receiver>SFireDialog</receiver>
+   <slot>svm_123_3_load()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>376</x>
+     <y>262</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>5</x>
+     <y>30</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>svm_12_3_load</sender>
+   <signal>clicked()</signal>
+   <receiver>SFireDialog</receiver>
+   <slot>svm_12_3_load()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>376</x>
+     <y>293</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-1</x>
+     <y>59</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>dst_3_save</sender>
+   <signal>clicked()</signal>
+   <receiver>SFireDialog</receiver>
+   <slot>dst_3_save()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>777</x>
+     <y>139</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>9</x>
+     <y>94</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>op_3</sender>
+   <signal>clicked()</signal>
+   <receiver>SFireDialog</receiver>
+   <slot>op_3()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>133</x>
+     <y>341</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1</x>
+     <y>245</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>high_1_load()</slot>
+  <slot>low_1_load()</slot>
+  <slot>aoi_1_load()</slot>
+  <slot>forest_1_load()</slot>
+  <slot>c3_1_save()</slot>
+  <slot>c2_1_save()</slot>
+  <slot>c1_1_save()</slot>
+  <slot>c3_2_load()</slot>
+  <slot>c2_2_load()</slot>
+  <slot>c1_2_load()</slot>
+  <slot>svm_123_2_save()</slot>
+  <slot>svm_12_2_save()</slot>
+  <slot>prepare_3_load()</slot>
+  <slot>aoi_3_load()</slot>
+  <slot>forest_3_load()</slot>
+  <slot>svm_123_3_load()</slot>
+  <slot>svm_12_3_load()</slot>
+  <slot>dst_3_save()</slot>
+  <slot>op_1()</slot>
+  <slot>op_2()</slot>
+  <slot>op_3()</slot>
+  <slot>c_123_edit()</slot>
+  <slot>sigma_123_edit()</slot>
+  <slot>c_12_edit()</slot>
+  <slot>sigma_12_edit()</slot>
+ </slots>
+</ui>

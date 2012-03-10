@@ -1,0 +1,26 @@
+
+Mapping of burnt forest areas
+
+Author:
+	
+	Akinin M.V.
+
+Version:
+
+	1.0 (11.03.2012)
+
+(Only for POSIX OS - GNU/Linux and other)
+
+Dependencies:
+
+	1. QGIS
+	2. gcc
+	3. make
+	4. swig
+	5. python 2
+	6. GDAL / OGR
+
+Build:
+
+	make
+

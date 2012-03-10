@@ -1,0 +1,7 @@
+
+1. lupdate i10n.pro
+2. linguist
+
+	2.1 Перевести
+	2.2 Скомпилировать (или lrelease)
+
