@@ -11,7 +11,7 @@
 
 name = SFire
 author = Akinin M.V.
-qgisMinimumVersion = 1.8
+qgisMinimumVersion = 1.7
 description = Mapping of burnt forest areas
 version = version 1.0
 tags = fire,sfire

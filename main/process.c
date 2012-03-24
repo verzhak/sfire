@@ -1,14 +1,4 @@
 
-/*
- * Составление карт гарей лесных массивов
- *
- * Акинин М.В. (verzhak@gmail.com), студент группы 740М, кафедра ЭВМ, РГРТУ (Рязань, Россия)
- *
- * Научный руководитель: доцент, к.т.н., Конкин Ю.В.
- *
- * 12 февраля 2012-го года
- */
-
 #include "process.h"
 
 int process(char * sat_dname, char * result_fname, char * shp_aoi_fname, char * shp_forest_fname, char ** svm_fname)
