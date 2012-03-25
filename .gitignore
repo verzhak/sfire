@@ -14,7 +14,6 @@ todo
 release
 *.eps
 release
-*.png
 *.tif
 *.tiff
 fmll-static
