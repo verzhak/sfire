@@ -10,8 +10,14 @@
     </message>
     <message utf8="true">
         <location filename="../dialog/about.ui" line="23"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Составление карт гарей лесных массивов&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Акинин М.В. (verzhak@gmail.com)&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;студент группы 740М, кафедра ЭВМ, РГРТУ (Рязань, Россия)&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Научный руководитель: доцент, к.т.н., Конкин Ю.В.&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Подготовлено для Геоконкурса 2011:&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&amp;quot;Исследование пожарной динамики на основе данных дистанционного зондирования&amp;quot;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;a href=&quot;http://gis-lab.info/projects/geokonkurs2011/index.html&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0057ae;&quot;&gt;GIS-Lab: Геоконкурс: Мониторинг природных пожаров&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;12 февраля 2012-го года&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Составление карт гарей лесных массивов&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Акинин М.В. (verzhak@gmail.com)&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;студент группы 740М, кафедра ЭВМ, РГРТУ (Рязань, Россия)&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Научный руководитель: доцент, к.т.н., Конкин Ю.В.&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Подготовлено для Геоконкурса 2011:&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&amp;quot;Исследование пожарной динамики на основе данных дистанционного зондирования&amp;quot;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;a href=&quot;http://gis-lab.info/projects/geokonkurs2011/index.html&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0057ae;&quot;&gt;GIS-Lab: Геоконкурс: Мониторинг природных пожаров&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Распространяется по лицензии GPLv3&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;12 февраля 2012-го года&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Mapping of burnt forest areas&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Akinin M.V. (verzhak@gmail.com)&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Ryazan State Radio Engineering University, Electronic counting machines department (Ryazan, Russia)&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Scientific adviser: docent, candidate of sciences, Konkin Y.V.&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Prepared for the geographical
+competition 2011&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;a href=&quot;http://gis-lab.info/projects/geokonkurs2011/index.html&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0057ae;&quot;&gt;GIS-Lab: geographical
+competition 2011&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;License: GPLv3&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;12.02.2012&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message utf8="true">
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Составление карт гарей лесных массивов&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Акинин М.В. (verzhak@gmail.com)&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;студент группы 740М, кафедра ЭВМ, РГРТУ (Рязань, Россия)&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Научный руководитель: доцент, к.т.н., Конкин Ю.В.&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Подготовлено для Геоконкурса 2011:&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&amp;quot;Исследование пожарной динамики на основе данных дистанционного зондирования&amp;quot;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;a href=&quot;http://gis-lab.info/projects/geokonkurs2011/index.html&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0057ae;&quot;&gt;GIS-Lab: Геоконкурс: Мониторинг природных пожаров&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;12 февраля 2012-го года&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="obsolete">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Mapping of burnt forest areas&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Akinin M.V. (verzhak@gmail.com)&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Ryazan State Radio Engineering University, Electronic counting machines department (Ryazan, Russia)&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Scientific adviser: docent, candidate of sciences, Konkin Y.V.&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Prepared for the geographical
 competition 2011&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;a href=&quot;http://gis-lab.info/projects/geokonkurs2011/index.html&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0057ae;&quot;&gt;GIS-Lab: geographical
 competition 2011&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;12.02.2012&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
@@ -24,103 +30,103 @@ competition 2011&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&
 <context>
     <name>CSFireDialog</name>
     <message>
-        <location filename="../../plugin.py" line="73"/>
+        <location filename="../../plugin.py" line="65"/>
         <source>Older satellite image</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../../plugin.py" line="78"/>
+        <location filename="../../plugin.py" line="70"/>
         <source>Later satellite image</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../../plugin.py" line="83"/>
-        <location filename="../../plugin.py" line="173"/>
+        <location filename="../../plugin.py" line="75"/>
+        <location filename="../../plugin.py" line="165"/>
         <source>AOI</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../../plugin.py" line="84"/>
-        <location filename="../../plugin.py" line="90"/>
-        <location filename="../../plugin.py" line="174"/>
-        <location filename="../../plugin.py" line="180"/>
+        <location filename="../../plugin.py" line="76"/>
+        <location filename="../../plugin.py" line="82"/>
+        <location filename="../../plugin.py" line="166"/>
+        <location filename="../../plugin.py" line="172"/>
         <source>ESRI Shapefile (*.shp)</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../../plugin.py" line="89"/>
-        <location filename="../../plugin.py" line="179"/>
+        <location filename="../../plugin.py" line="81"/>
+        <location filename="../../plugin.py" line="171"/>
         <source>Forest map</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../../plugin.py" line="95"/>
-        <location filename="../../plugin.py" line="125"/>
-        <location filename="../../plugin.py" line="131"/>
-        <location filename="../../plugin.py" line="137"/>
+        <location filename="../../plugin.py" line="87"/>
+        <location filename="../../plugin.py" line="117"/>
+        <location filename="../../plugin.py" line="123"/>
+        <location filename="../../plugin.py" line="129"/>
         <source>Examples file (*.bin)</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../../plugin.py" line="112"/>
-        <location filename="../../plugin.py" line="124"/>
+        <location filename="../../plugin.py" line="104"/>
+        <location filename="../../plugin.py" line="116"/>
         <source>Forest class</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../../plugin.py" line="116"/>
-        <location filename="../../plugin.py" line="130"/>
+        <location filename="../../plugin.py" line="108"/>
+        <location filename="../../plugin.py" line="122"/>
         <source>Smell of burning class</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../../plugin.py" line="120"/>
-        <location filename="../../plugin.py" line="136"/>
+        <location filename="../../plugin.py" line="112"/>
+        <location filename="../../plugin.py" line="128"/>
         <source>Not forest, not smell of burning class</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../../plugin.py" line="142"/>
-        <location filename="../../plugin.py" line="187"/>
-        <location filename="../../plugin.py" line="194"/>
+        <location filename="../../plugin.py" line="134"/>
+        <location filename="../../plugin.py" line="179"/>
+        <location filename="../../plugin.py" line="186"/>
         <source>SVM file (*.svm)</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../../plugin.py" line="159"/>
-        <location filename="../../plugin.py" line="186"/>
+        <location filename="../../plugin.py" line="151"/>
+        <location filename="../../plugin.py" line="178"/>
         <source>SVM, that separates the forest class and other classes</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../../plugin.py" line="163"/>
-        <location filename="../../plugin.py" line="193"/>
+        <location filename="../../plugin.py" line="155"/>
+        <location filename="../../plugin.py" line="185"/>
         <source>SVM, that separates the other classes</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../../plugin.py" line="167"/>
+        <location filename="../../plugin.py" line="159"/>
         <source>Satellite image</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../../plugin.py" line="199"/>
+        <location filename="../../plugin.py" line="191"/>
         <source>Resulting mask</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../../plugin.py" line="200"/>
+        <location filename="../../plugin.py" line="192"/>
         <source>GeoTIFF (*.tif *tiff)</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../../plugin.py" line="343"/>
-        <location filename="../../plugin.py" line="346"/>
+        <location filename="../../plugin.py" line="345"/>
+        <location filename="../../plugin.py" line="348"/>
         <source>Mapping of burnt forest areas</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../../plugin.py" line="347"/>
+        <location filename="../../plugin.py" line="349"/>
         <source>About plugin</source>
         <translation></translation>
     </message>
