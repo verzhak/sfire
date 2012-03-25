@@ -1,4 +1,6 @@
 
+// Программный код, находящийся в данном файле, распространяется по лицензии GPLv3
+
 #include "teach.h"
 
 int sfire_read(char ** fname, double *** vec, unsigned ** d, unsigned vec_per_class)

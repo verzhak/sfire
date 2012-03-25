@@ -1,5 +1,7 @@
 #coding=utf-8
 
+# Программный код, находящийся в данном файле, распространяется по лицензии GPLv3
+
 from PyQt4.QtCore import *
 from PyQt4.QtGui import *
 from qgis.core import *

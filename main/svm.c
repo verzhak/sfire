@@ -1,4 +1,6 @@
 
+// Программный код, находящийся в данном файле, распространяется по лицензии GPLv3
+
 #include "svm.h"
 
 double kernel(const double * v1, const double * v2, unsigned dim, double sigma)

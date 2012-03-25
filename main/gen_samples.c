@@ -1,4 +1,6 @@
 
+// Программный код, находящийся в данном файле, распространяется по лицензии GPLv3
+
 #include "gen_samples.h"
 
 double ndvi(double red, double nred)

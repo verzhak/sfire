@@ -1,4 +1,6 @@
 
+// Программный код, находящийся в данном файле, распространяется по лицензии GPLv3
+
 #include "process.h"
 
 int process(char * sat_dname, char * result_fname, char * shp_aoi_fname, char * shp_forest_fname, char ** svm_fname)

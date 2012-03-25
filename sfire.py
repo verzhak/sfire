@@ -1,5 +1,7 @@
 #coding=utf-8
 
+# Программный код, находящийся в данном файле, распространяется по лицензии GPLv3
+
 from multiprocessing import Process, Queue
 
 import wrap_sfire

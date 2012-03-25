@@ -1,4 +1,6 @@
 
+// Программный код, находящийся в данном файле, распространяется по лицензии GPLv3
+
 #include "various.h"
 
 GDALDriverH drv_tiff = NULL, drv_r_mem = NULL;

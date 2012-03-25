@@ -17,7 +17,8 @@ version = version 1.0
 tags = fire,sfire
 experimental = True
 deprecated = False
-homepage =
-tracker =
-repository =
+license = GPLv3
+homepage = https://github.com/verzhak/sfire
+tracker = https://github.com/verzhak/sfire
+repository = https://github.com/verzhak/sfire
 

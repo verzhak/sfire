@@ -1,4 +1,6 @@
 
+// Программный код, находящийся в данном файле, распространяется по лицензии GPLv3
+
 #include "print.h"
 
 t_print_fun my_print_fun = & simple_print;

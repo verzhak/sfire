@@ -1,6 +1,8 @@
 #!/usr/bin/python2
 #coding=utf-8
 
+# Программный код, находящийся в данном файле, распространяется по лицензии GPLv3
+
 from sys import argv
 
 import sfire
